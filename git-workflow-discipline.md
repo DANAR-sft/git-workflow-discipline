@@ -60,16 +60,16 @@ We follow a standardized commit message format to easily understand the history 
 - Once the code is ready (and approved if you are working in a team), merge the Pull Request.
 - Delete the feature branch after merging to keep the repository clean.
 
-## 7. Kesimpulan & Refleksi
-### Kesimpulan
-Penerapan *Git Workflow Discipline* dengan strategi *Feature Branching* sangat penting untuk menjaga kualitas dan kestabilan kode, terutama dalam kolaborasi tim. Dengan memisahkan setiap fitur atau perbaikan bug ke dalam branch masing-masing, branch `main` akan selalu berada dalam kondisi stabil dan siap untuk produksi (*production-ready*). Selain itu, penggunaan konvensi penamaan branch dan pesan commit yang standar mempermudah pelacakan sejarah perubahan, membuat proses *code review* lebih efisien, dan meminimalisir risiko bentrok kode (*merge conflict*). Workflow ini terbukti menciptakan proses pengembangan yang lebih terstruktur, aman, dan profesional.
+## 7. Conclusion & Reflection
+### Conclusion
+Implementing the *Git Workflow Discipline* using the *Feature Branching* strategy is crucial for maintaining code quality and stability, especially in team collaboration. By isolating every feature or bug fix into its own branch, the `main` branch remains stable and ready for production at all times. Furthermore, using standardized branch naming and commit message conventions makes tracking the history of changes easier, makes the *code review* process more efficient, and minimizes the risk of *merge conflicts*. This workflow has proven to create a more structured, secure, and professional development process.
 
-### Refleksi
-Setelah mengimplementasikan alur kerja ini secara langsung (mulai dari inisialisasi *repository*, pembuatan branch fitur, *commit* berdasarkan konvensi, hingga proses *Push* dan *Pull Request*), saya menyadari bahwa disiplin dalam menggunakan Git bukan sekadar tentang mengetikkan perintah, melainkan tentang komunikasi dan kerapian kerja. 
+### Reflection
+After applying this workflow directly (from initializing the repository, creating feature branches, committing based on conventions, to the Push and Pull Request process), I realized that discipline in using Git is not just about typing commands, but about communication and keeping the workspace tidy.
 
-Beberapa pandangan yang saya dapatkan:
-1. **Pentingnya Konvensi:** Membiasakan diri menulis pesan commit yang deskriptif (seperti `feat:` atau `chore:`) pada awalnya terasa kaku, namun sangat membantu saat harus melihat kembali riwayat perubahan (*git log*).
-2. **Ketenangan Mengerjakan Fitur:** Mengetahui bahwa saya bekerja di `feature/` branch membuat saya lebih leluasa bereksperimen tanpa takut merusak kode utama yang ada di `main`.
-3. **Penyelarasan Tim:** Alur ini menyadarkan saya bahwa kode yang saya tulis pada akhirnya akan dibaca dan di-review oleh orang lain. Dokumentasi dan struktur yang baik adalah bentuk empati kepada sesama *developer*.
+Some of the key takeaways I gained:
+1. **The Importance of Conventions:** Getting used to writing descriptive commit messages (like `feat:` or `chore:`) feels rigid at first, but it is incredibly helpful when having to look back at the change history (*git log*).
+2. **Peace of Mind when Developing Features:** Knowing that I am working in a `feature/` branch gives me the freedom to experiment without the fear of breaking the main code in the `main` branch.
+3. **Team Alignment:** This workflow made me realize that the code I write will eventually be read and reviewed by others. Good documentation and structure are forms of empathy toward fellow *developers*.
 
-Ke depannya, saya akan terus menerapkan disiplin ini dalam setiap proyek, baik proyek individu maupun tim, agar menjadi kebiasaan mendasar sebagai seorang *Software Engineer*.
+Moving forward, I will continue to apply this discipline in every project, whether individual or team-based, so that it becomes a fundamental habit as a *Software Engineer*.
