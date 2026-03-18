@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Workflow Discipline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🚀 GitFlow</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#workflow">Workflow</a></li>
+                <li><a href="#conventions">Conventions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Git Workflow Discipline</h1>
+            <p>A structured approach to collaboration that keeps the project organized, secure, and easy to follow.</p>
+        </section>
+
+        <section id="about" class="card">
+            <h2>🎯 About This Project</h2>
+            <p>This workflow ensures that every developer on the team follows the same best practices when contributing to the codebase. We use a <strong>Feature Branching Workflow</strong> to keep the <code>main</code> branch stable and production-ready at all times.</p>
+        </section>
+
+        <section id="workflow" class="card">
+            <h2>🔀 Branching Strategy</h2>
+            <div class="branch-list">
+                <div class="branch-item main-branch">
+                    <span class="branch-badge">main</span>
+                    <p>The default stable branch — always production-ready.</p>
+                </div>
+                <div class="branch-item feature-branch">
+                    <span class="branch-badge">feature/*</span>
+                    <p>Used for developing new features.</p>
+                </div>
+                <div class="branch-item bugfix-branch">
+                    <span class="branch-badge">bugfix/*</span>
+                    <p>Used for fixing bugs.</p>
+                </div>
+                <div class="branch-item hotfix-branch">
+                    <span class="branch-badge">hotfix/*</span>
+                    <p>Used for urgent production fixes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="conventions" class="card">
+            <h2>📝 Commit Message Conventions</h2>
+            <div class="commit-types">
+                <div class="commit-type"><code>feat:</code> A new feature</div>
+                <div class="commit-type"><code>fix:</code> A bug fix</div>
+                <div class="commit-type"><code>docs:</code> Documentation changes</div>
+                <div class="commit-type"><code>style:</code> Formatting changes</div>
+                <div class="commit-type"><code>refactor:</code> Code refactoring</div>
+                <div class="commit-type"><code>test:</code> Adding/fixing tests</div>
+                <div class="commit-type"><code>chore:</code> Build/tooling changes</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Git Workflow Discipline — Malik Alrasyid Basori</p>
+    </footer>
+</body>
+</html>
